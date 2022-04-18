@@ -4,6 +4,6 @@ configuration {
   show-icons:         true;
   icon-theme:         "Papirus";
 }
-@import "/home/deuce/Documents/Dotfiles/config/rofi/rofi/arc_dark_transparent_colors.rasi"
-@import "arc_dark_transparent_colors.rasi"
+@import "/home/deuce/.config/rofi/themes/arc_dark_transparent_colors.rasi"
+//@import "arc_dark_transparent_colors.rasi"
 // @import "/home/deuce/.config/awesome/themes/sidebar.rasi"
