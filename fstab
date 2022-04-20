@@ -1,24 +1,6 @@
 # Static information about the filesystems.
 # See fstab(5) for details.
 
-# <file system> <dir> <type> <options> <dump> <pass>
-# /dev/nvme0n1p3 UUID=06aae307-8378-4f6a-bd08-838b791d2bb1
-LABEL=ROOT          	/         	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=256,subvol=/@	0 0
-
-# /dev/nvme0n1p2 UUID=D784-AB49
-LABEL=EFIBOOT       	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
-
-# /dev/nvme0n1p3 UUID=06aae307-8378-4f6a-bd08-838b791d2bb1
-LABEL=ROOT          	/home     	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=257,subvol=/@home	0 0
-
-# /dev/nvme0n1p3 UUID=06aae307-8378-4f6a-bd08-838b791d2bb1
-LABEL=ROOT          	/tmp      	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=259,subvol=/@tmp	0 0
-
-# /dev/nvme0n1p3 UUID=06aae307-8378-4f6a-bd08-838b791d2bb1
-LABEL=ROOT          	/var      	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=258,subvol=/@var	0 0
-
-# /dev/nvme0n1p3 UUID=06aae307-8378-4f6a-bd08-838b791d2bb1
-LABEL=ROOT          	/.snapshots	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=260,subvol=/@.snapshots	0 0
 
 UUID=4706CFCB4DBA4B7C                       /media/Gamma   ntfs    nofail                                                                                                  0 0 
 UUID=1CB2FD8274F1A91C                       /media/Phi     ntfs    nofail                                                                                                  0 0 
