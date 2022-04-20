@@ -14,7 +14,6 @@ Copy Config to .Config
     mv Dotfiles/config/* to .config/
 
 Install required packages
-    yay -S awesome fed firefox-developer-edition kitty polybar nitrogen neofetch  ocs-url picom rofi sxhkd thunar visual-studio-code-bin
-
+    yay -S awesome firefox-developer-edition kitty polybar nitrogen neofetch  ocs-url picom rofi sxhkd thunar visual-studio-code-bin xterm
 Autologin
-    sudo nano /etc/sddm.comg
+    sudo nano /etc/sddm.comf
