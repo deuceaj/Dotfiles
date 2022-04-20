@@ -1,9 +1,10 @@
 /** Basic config file **/
 
 configuration {
-  show-icons:         true;
-  icon-theme:         "Papirus";
+  show-icons: true;
+  icon-theme: "Papirus";
+  display-drun: "";
+  display-window: "﩯 ";
+  display-combi: "  ";
 }
-@import "/home/deuce/.config/rofi/themes/arc_dark_transparent_colors.rasi"
-//@import "arc_dark_transparent_colors.rasi"
-// @import "/home/deuce/.config/awesome/themes/sidebar.rasi"
+@theme "themes/sidetab-nord.rasi"
