@@ -13,7 +13,8 @@ neofetch
 nitrogen
 ntfs-3g
 ocs-url
-partitionmangerpicom
+partitionmanger
+picom
 polkit
 polkit-gnome
 polybar

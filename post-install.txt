@@ -1,1 +1,0 @@
-yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages mandoc neofetch nitrogen ntfs-3g ocs-url partitionmangerpicom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm
