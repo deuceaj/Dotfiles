@@ -53,6 +53,22 @@ export PATH="$HOME/.local/bin:$PATH"
 INSTALL 
 
 
+Enable "systemd-numlockontty" for NumberLock on start
+sudo systemctl enable numLockOnTty.service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  ##################################################

@@ -82,6 +82,7 @@ qemu
 snap-pac
 snapper
 swtpm
+systemd-numlockontty
 terminus-font
 traceroute
 ttf-droid

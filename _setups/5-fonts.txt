@@ -1,0 +1,9 @@
+nerd-fonts-complete
+nerd-fonts-dejavu-complete
+nerd-fonts-go-mono
+nerd-fonts-liberation-mono
+nerd-fonts-anonymous-pro
+nerd-fonts-noto
+nerd-fonts-inconsolata
+
+
