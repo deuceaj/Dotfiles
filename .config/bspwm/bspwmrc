@@ -5,6 +5,7 @@
 
 #Start polybar first
 bash ~/.config/polybar/launch.sh &
+mpd &
 corectrl &
 nitrogen --restore &
 bash ~/.local/led.sh
@@ -30,8 +31,8 @@ xsetroot -cursor_name left_ptr
 setxkbmap -layout us
 
 #Monitor Config
-bspc monitor HDMI-A-0 -d Alpha Beta Gamma Delta 5
-bspc monitor DVI-D-0  -d 6 7 8 9 10
+bspc monitor HDMI-A-0 -d 1 2 3 4 5
+bspc monitor DVI-D-0  -d 6 7 8 9 0
 
 #BSPWM Config
 bspc config border_width        0

@@ -1,9 +1,0 @@
-[2022-04-21 17:11:03.714] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
-[2022-04-21 17:11:03.887] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
-[2022-04-21 17:12:16.724] [renderer1] [info] [lifecycle]: Shutdown was prevented (id: veto.untitledWorkspace)
-[2022-04-21 17:17:13.649] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/deuce/.config/polybar)
-[2022-04-21 17:17:17.759] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/deuce/.config/polybar.deuce)
-[2022-04-21 17:17:17.860] [renderer1] [warning] [File Watcher (parcel)] Watcher restarts because watched path got created again (path: /home/deuce/.config/polybar)
-[2022-04-21 17:17:38.438] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/deuce/.config/polybar)
-[2022-04-21 17:17:38.538] [renderer1] [warning] [File Watcher (parcel)] Watcher restarts because watched path got created again (path: /home/deuce/.config/polybar.deuce)
-[2022-04-21 17:17:43.897] [renderer1] [warning] [File Watcher (parcel)] Watcher restarts because watched path got created again (path: /home/deuce/.config/polybar)

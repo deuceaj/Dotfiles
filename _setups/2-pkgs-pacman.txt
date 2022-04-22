@@ -28,7 +28,6 @@ bridge-utils
 btrfs-progs
 celluloid
 cronie
-cups
 dialog
 dmidecode
 dnsmasq
@@ -48,6 +47,8 @@ grub-customizer
 gst-libav
 gst-plugins-good
 gst-plugins-ugly
+gvfs
+gvfs-afc
 haveged
 htop
 iptables
