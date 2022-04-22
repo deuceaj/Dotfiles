@@ -60,6 +60,11 @@ sudo systemctl enable numLockOnTty.service
 
 
 
+pacman -Qe >> 0421_explixit.txt
+pacman -QM >> 0421_manual.txt
+pacman -QM >> 0421_native.txt
+pacman -Qent >> 0421_explicit-native.txt
+
 
 
 
