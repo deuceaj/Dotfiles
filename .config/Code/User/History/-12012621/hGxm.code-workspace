@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "bspwm"
+		},
+		{
+			"path": "polybar"
+		},
+		{
+			"path": "sxhkd"
+		},
+		{
+			"path": "../GitHub/Dotfiles"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,61 @@
+[2022-04-21 17:20:34.429] [exthost] [info] Extension host with pid 25067 started
+[2022-04-21 17:20:34.429] [exthost] [info] Skipping acquiring lock for /home/deuce/.config/Code/User/workspaceStorage/eb84fc58987efe4e6e096f4f6d55751e.
+[2022-04-21 17:20:34.483] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-04-21 17:20:34.497] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-21 17:20:34.498] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-21 17:20:34.500] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-21 17:20:34.531] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-21 17:20:34.545] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-21 17:20:34.591] [exthost] [info] Eager extensions activated
+[2022-04-21 17:20:34.710] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:20:34.713] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:20:34.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-04-21 17:20:41.127] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-21 17:20:41.130] [exthost] [info] Extension host with pid 25067 exiting with code 0
+[2022-04-21 17:20:41.900] [exthost] [info] Extension host with pid 25196 started
+[2022-04-21 17:20:41.947] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-04-21 17:20:41.959] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-21 17:20:41.960] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-21 17:20:41.960] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-21 17:20:41.977] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-21 17:20:41.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-21 17:20:42.016] [exthost] [info] Eager extensions activated
+[2022-04-21 17:20:42.017] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-04-21 17:20:42.032] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:20:42.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:20:46.899] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-21 17:20:46.905] [exthost] [info] Extension host with pid 25196 exiting with code 0
+[2022-04-21 17:20:47.753] [exthost] [info] Extension host with pid 25270 started
+[2022-04-21 17:20:47.753] [exthost] [info] Skipping acquiring lock for /home/deuce/.config/Code/User/workspaceStorage/944ab97401ced7d47afc2bcd55660fe2.
+[2022-04-21 17:20:47.785] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-04-21 17:20:47.795] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-21 17:20:47.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-21 17:20:47.797] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-21 17:20:47.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-21 17:20:47.819] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-21 17:20:47.845] [exthost] [info] Eager extensions activated
+[2022-04-21 17:20:47.865] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:20:47.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:20:47.869] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-04-21 17:37:27.732] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:27.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:27.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:27.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:27.871] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-21 17:37:27.875] [exthost] [info] Extension host with pid 25270 exiting with code 0
+[2022-04-21 17:37:28.072] [exthost] [info] Extension host with pid 30391 started
+[2022-04-21 17:37:28.072] [exthost] [info] Skipping acquiring lock for /home/deuce/.config/Code/User/workspaceStorage/2e772445a1e37e05fbaf0b4534b043c6.
+[2022-04-21 17:37:28.095] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-04-21 17:37:28.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-04-21 17:37:28.115] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:28.117] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:28.119] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:28.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-21 17:37:28.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-21 17:37:28.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-21 17:37:28.144] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-21 17:37:28.161] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-21 17:37:28.170] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-21 17:37:28.231] [exthost] [info] Eager extensions activated
+[2022-04-21 17:37:28.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:37:28.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

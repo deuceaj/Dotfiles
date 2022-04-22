@@ -1,0 +1,23 @@
+Create folder
+cd /
+sudo mkdir /media
+cd media/
+sudo mkdir Delta Gamma Oni Phi Theta Vega
+sudo chown -R deuce:deuce Delta Gamma Oni Phi Theta Vega
+
+
+CAT into Fstab
+UUID=4706CFCB4DBA4B7C                       /media/Gamma   ntfs    nofail                                                                                                  0 0 
+UUID=1CB2FD8274F1A91C                       /media/Phi     ntfs    nofail                                                                                                  0 0 
+UUID=E614F7FE14F7D013                       /media/Oni     ntfs    nofail                                                                                                  0 0 
+UUID=de1b6d6a-9129-4ed2-a6f1-ee3243e2d682   /media/Vega    btrfs   nofail                                                                                                  0 0 
+//192.168.2.10/Theta                        /media/Theta/   cifs    vers=2.0,credentials=/home/deuce/.local/.smbcredentials,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777 0 0 
+
+
+INSTALL 
+wine-gecko
+wine-mono
+winetricks
+
+
+system-monitoring-center

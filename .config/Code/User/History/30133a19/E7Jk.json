@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../bspwm"
+		},
+		{
+			"path": "../../../polybar"
+		},
+		{
+			"path": "../../../sxhkd"
+		}
+	],
+	"settings": {}
+}

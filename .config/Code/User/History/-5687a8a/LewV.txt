@@ -1,0 +1,6 @@
+Create folder
+cd /
+sudo mkdir /media
+cd media/
+sudo mkdir Delta Gamma Oni Phi Theta Vega
+sudo chown -R deuce:deuce Delta Gamma Oni Phi Theta Vega

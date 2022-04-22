@@ -1,0 +1,11 @@
+[2022-04-21 17:44:26.495] [sharedprocess] [info] Starting worker process with pid 34929 (type: fileWatcher, window: 1).
+[2022-04-21 17:44:26.496] [sharedprocess] [info] Starting worker process with pid 34933 (type: fileWatcher, window: 2).
+[2022-04-21 17:44:28.954] [sharedprocess] [info] Worker process with pid 34933 terminated normally (type: fileWatcher, window: 2).
+[2022-04-21 18:07:19.298] [sharedprocess] [info] Getting Manifest... naumovs.color-highlight
+[2022-04-21 18:07:19.300] [sharedprocess] [info] Installing extension: naumovs.color-highlight
+[2022-04-21 18:07:19.823] [sharedprocess] [info] Downloaded extension: naumovs.color-highlight /home/deuce/.config/Code/CachedExtensionVSIXs/naumovs.color-highlight-2.5.0
+[2022-04-21 18:07:19.944] [sharedprocess] [info] Extracted extension to /home/deuce/.vscode/extensions/.d0b6ad66-58b2-4256-97e0-c542c0a338ff: naumovs.color-highlight
+[2022-04-21 18:07:19.950] [sharedprocess] [info] Renamed to /home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0
+[2022-04-21 18:07:19.950] [sharedprocess] [info] Extracting completed. naumovs.color-highlight
+[2022-04-21 18:07:19.951] [sharedprocess] [info] Extension installed successfully: naumovs.color-highlight
+[2022-04-21 19:18:21.617] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

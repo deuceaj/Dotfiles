@@ -1,0 +1,5 @@
+[2022-04-21 17:39:47.795] [sharedprocess] [info] Starting worker process with pid 32375 (type: fileWatcher, window: 2).
+[2022-04-21 17:39:47.811] [sharedprocess] [info] Starting worker process with pid 32377 (type: fileWatcher, window: 3).
+[2022-04-21 17:39:47.812] [sharedprocess] [info] Starting worker process with pid 32378 (type: fileWatcher, window: 1).
+[2022-04-21 17:40:10.909] [sharedprocess] [info] Worker process with pid 32375 terminated normally (type: fileWatcher, window: 2).
+[2022-04-21 17:40:10.927] [sharedprocess] [info] Worker process with pid 32378 terminated normally (type: fileWatcher, window: 1).

@@ -1,0 +1,20 @@
+[2022-04-21 17:40:14.115] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-21 17:40:14.141] [main] [info] window#load: attempt to load window (id: 2)
+[2022-04-21 17:40:14.167] [main] [info] window#load: attempt to load window (id: 3)
+[2022-04-21 17:40:14.172] [main] [info] update#setState idle
+[2022-04-21 17:40:14.196] [main] [info] ExtensionHostStarterWorker created
+[2022-04-21 17:40:14.827] [main] [info] window#load: window reported ready (id: 2)
+[2022-04-21 17:40:14.832] [main] [info] window#load: window reported ready (id: 3)
+[2022-04-21 17:40:14.833] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-21 17:40:14.977] [main] [info] Starting extension host with pid 32769 (fork() took 9 ms).
+[2022-04-21 17:40:14.977] [main] [info] ExtensionHostStarterWorker.start() took 11 ms.
+[2022-04-21 17:40:14.994] [main] [info] Starting extension host with pid 32770 (fork() took 8 ms).
+[2022-04-21 17:40:14.994] [main] [info] ExtensionHostStarterWorker.start() took 8 ms.
+[2022-04-21 17:40:15.109] [main] [info] Starting extension host with pid 32799 (fork() took 9 ms).
+[2022-04-21 17:40:15.109] [main] [info] ExtensionHostStarterWorker.start() took 10 ms.
+[2022-04-21 17:40:21.857] [main] [info] Extension host with pid 32769 exited with code: 0, signal: null.
+[2022-04-21 17:40:44.175] [main] [info] update#setState checking for updates
+[2022-04-21 17:40:44.255] [main] [info] update#setState idle
+[2022-04-21 17:44:22.525] [main] [info] Extension host with pid 32770 exited with code: 0, signal: null.
+[2022-04-21 17:44:22.569] [main] [info] Waiting for extension host with pid 32799 to exit.
+[2022-04-21 17:44:22.580] [main] [info] Extension host with pid 32799 exited with code: 0, signal: null.

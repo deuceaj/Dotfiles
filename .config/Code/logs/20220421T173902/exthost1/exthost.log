@@ -1,0 +1,12 @@
+[2022-04-21 17:39:03.699] [exthost] [info] Extension host with pid 31433 started
+[2022-04-21 17:39:03.699] [exthost] [info] Skipping acquiring lock for /home/deuce/.config/Code/User/workspaceStorage/2e772445a1e37e05fbaf0b4534b043c6.
+[2022-04-21 17:39:03.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-04-21 17:39:03.801] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-21 17:39:03.806] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-21 17:39:03.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-21 17:39:03.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-21 17:39:03.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-21 17:39:03.889] [exthost] [info] Eager extensions activated
+[2022-04-21 17:39:03.940] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:39:03.945] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:39:03.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

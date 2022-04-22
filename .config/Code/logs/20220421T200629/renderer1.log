@@ -1,0 +1,26 @@
+[2022-04-21 20:06:30.861] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-21 20:06:30.969] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-21 20:18:59.606] [renderer1] [error] [Extension Host] TypeError: Cannot read properties of null (reading 'version')
+	at /home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:68024
+	at l (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+	at Generator._invoke (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4273)
+	at Generator.next (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+	at l (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+	at M (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:5658)
+	at Generator._invoke (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4050)
+	at Generator.next (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+	at t (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:413)
+	at s (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:624)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-04-21 20:18:59.606] [renderer1] [error] [Extension Host] TypeError: Cannot read properties of null (reading 'version')
+	at /home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:68024
+	at l (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+	at Generator._invoke (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4273)
+	at Generator.next (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+	at l (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+	at M (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:5658)
+	at Generator._invoke (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4050)
+	at Generator.next (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+	at t (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:413)
+	at s (/home/deuce/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:624)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
