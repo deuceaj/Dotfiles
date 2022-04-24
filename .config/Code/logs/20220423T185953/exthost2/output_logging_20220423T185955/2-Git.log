@@ -1,0 +1,16 @@
+[2022-04-23T22:59:55.424Z] Validating found git in: git
+[2022-04-23T22:59:55.451Z] Using git 2.36.0 from git
+[2022-04-23T22:59:55.487Z] > git rev-parse --git-dir [17ms]
+[2022-04-23T22:59:55.491Z] Open repository: /home/deuce/GitHub/Dotfiles
+[2022-04-23T22:59:55.609Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-23T22:59:55.613Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [1ms]
+[2022-04-23T22:59:55.620Z] > git remote --verbose [1ms]
+[2022-04-23T22:59:55.620Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-04-23T22:59:55.627Z] > git config --get commit.template [1ms]
+[2022-04-23T22:59:55.958Z] > git ls-files --stage -- /home/deuce/GitHub/Dotfiles/_setups/4-Virt_Manager_setup.sh [2ms]
+[2022-04-23T22:59:55.962Z] > git cat-file -s 270e248a649679b40c26cdbccedd13003733a7da [1ms]
+[2022-04-23T23:08:37.964Z] > git symbolic-ref --short HEAD [0ms]
+[2022-04-23T23:08:37.967Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [0ms]
+[2022-04-23T23:08:37.972Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+[2022-04-23T23:08:37.972Z] > git remote --verbose [0ms]
+[2022-04-23T23:08:37.976Z] > git config --get commit.template [1ms]

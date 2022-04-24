@@ -1,0 +1,13 @@
+[2022-04-23 19:57:57.551] [exthost] [info] Extension host with pid 74781 started
+[2022-04-23 19:57:57.590] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-04-23 19:57:57.599] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-23 19:57:57.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-04-23 19:57:57.601] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-23 19:57:57.602] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2022-04-23 19:57:57.615] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-23 19:57:57.620] [exthost] [info] Eager extensions activated
+[2022-04-23 19:57:57.623] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-23 19:57:57.626] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-23 19:57:57.636] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-04-23 19:58:48.456] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-23 19:58:48.458] [exthost] [info] Extension host with pid 74781 exiting with code 0

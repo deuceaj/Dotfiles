@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "/home/deuce/.config/bspwm.deuce"
+		},
+		{
+			"path": "/home/deuce/.config/polybar.deuce"
+		}
+	],
+	"settings": {}
+}

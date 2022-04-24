@@ -1,0 +1,5 @@
+[2022-04-23 18:35:44.448] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-23 18:35:44.644] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-23 18:35:53.718] [renderer1] [warning] [backup tracker] suspended, ignoring dirty change event file:///etc/default/grub 
+[2022-04-23 18:35:54.260] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-23 18:35:54.463] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.

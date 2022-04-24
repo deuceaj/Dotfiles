@@ -1,0 +1,28 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=B31C-71D5                            /boot/efi      vfat    umask=0077 0 2
+UUID=835c6501-3836-4dbe-b973-82a5ce8af9f5 swap           swap    defaults,noatime 0 0
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /              btrfs   subvol=/@,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /home          btrfs   subvol=/@home,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /root          btrfs   subvol=/@root,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /srv           btrfs   subvol=/@srv,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /var/cache     btrfs   subvol=/@cache,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /var/log       btrfs   subvol=/@log,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /var/tmp       btrfs   subvol=/@tmp,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
+
+#Snapshots
+UUID=3f6b9cc0-e1c7-4fa6-a788-69a884a740e2 /.snapshots       btrfs   subvol=/@snapshots,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+
+#My Drives
+UUID=4706CFCB4DBA4B7C                       /media/Gamma    ntfs    nofail                                                                                                                  0 0 
+UUID=1CB2FD8274F1A91C                       /media/Phi      ntfs    nofail                                                                                                                  0 0 
+UUID=ee9ccab8-84e0-46e9-99ff-e12eb084f0f3   /media/Omega    btrfs   nofail                                                                                                                0 0 
+UUID=E614F7FE14F7D013                       /media/Oni      ntfs    nofail                                                                                                                  0 0 
+UUID=de1b6d6a-9129-4ed2-a6f1-ee3243e2d682   /media/Vega     btrfs   nofail                                                                                                                  0 0 
+//192.168.2.10/Theta                        /media/Theta/   cifs    vers=2.0,credentials=/home/deuce/.local/.smbcredentials,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777   0 0 
