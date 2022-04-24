@@ -8,8 +8,7 @@ krdc
 libvncserver
 
 
-
-
+corectrl
 ms-office-online
 wps-office
 wps-office-mime
@@ -41,33 +40,19 @@ polychromatic
 
 p7zip
 unrar
+uzip
 
 tiny-media-manager-3
 timeshift
 
 lxappearance
+xev
 
 
 
-
-awesome-terminal-fonts
-cifs-utils
-corectrl
-exfat-utils
-firefox-developer-edition
-gnome-keyring
-lxappearance-gtk3
-lxpolkit
-man-db
-man-pages
-nitrogen
-ntfs-3g
 ocs-url
-partitionmanager
-polkit
-polkit-gnome
-rxvt-unicode
-thunar-archive-plugin
-thunar-volman
-thunar-media-tags-plugin
-uzip
+flameshot
+
+dunst
+
+z-scroll

@@ -8,8 +8,7 @@ https://christitus.com/vm-setup-in-linux/
     ##################
     Required Packages
     ##################
-    archlinux-keyring
-    qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat ebtables iptables libguestfs edk2-ovmf 
+    archlinux-keyring qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat ebtables iptables libguestfs edk2-ovmf swtpm
 
 
     #Enable and Start Libvirt
@@ -33,3 +32,31 @@ https://christitus.com/vm-setup-in-linux/
 
     #Restart Libvirt and set default network
     sudo systemctl restart libvirtd.service
+
+
+
+
+###################################################
+6) Preparation and placing of ROM file
+###################################################
+https://www.techpowerup.com/vgabios/203050/msi-rx570-8192-180304
+
+sudo mkdir /usr/share/vgabios
+place the rom in above directory with
+cd /usr/share/vgabios
+sudo chmod -R 660 <ROMFILE>.rom
+sudo chown username:username <ROMFILE>.rom
+
+            For VirtManager:    
+            <rom file="/usr/share/vgabios/RX570.rom"/>
+
+
+
+###################################################
+7) scripts & logfiles
+###################################################
+git clone https://gitlab.com/risingprismtv/single-gpu-passthrough.git
+
+
+
+

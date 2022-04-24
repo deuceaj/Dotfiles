@@ -33,7 +33,7 @@ UUID=de1b6d6a-9129-4ed2-a6f1-ee3243e2d682   /media/Vega    btrfs   nofail       
 cp /usr/share/applications/org.corectrl.corectrl.desktop ~/.config/autostart/org.corectrl.corectrl.desktop
 
 
-sudo touch /etc/polkit-1/rules.d/90-corectrl.rules
+sudo nano /etc/polkit-1/rules.d/90-corectrl.rules
 
 CAT into 
 polkit.addRule(function(action, subject) {
@@ -71,7 +71,17 @@ pacman -Qent >> 0421_explicit-native.txt
 
 
 
+https://www.youtube.com/watch?v=YXWI218PXEA
 
+
+
+
+
+Move to theme Folder
+
+git clone https://github.com/Kangie/sddm-sugar-candy
+sudo pacman -S --needed sddm qt5‑graphicaleffects qt5‑quickcontrols2 qt5‑svg
+sudo tar -xzvf ~/sugar‑candy.tar.gz -C /usr/share/sddm/themes
 
 
 
