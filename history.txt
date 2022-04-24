@@ -1,0 +1,326 @@
+    1  yay -S sddm
+    2  cd /opt
+    3  git clone https://aur.archlinux.org/yay-git.git
+    4  sudo git clone https://aur.archlinux.org/yay-git.git
+    5  sudo chown -R deuce:deuce ./yay-git/
+    6  cd yay-git/
+    7  mkpkg -si
+    8  makepkg -si
+    9  yay -S sddm
+   10  sudo systemctl enable sddm
+   11  sudo systemctl set-default graphical.target
+   12  cd ~
+   13  ls
+   14  mkdir Github
+   15  mv -R ArchTitus/ Github/
+   16  mv -r ArchTitus/ Github/
+   17  ls
+   18  cd Github/
+   19  git clone https://github.com/deuceaj/Dotfiles
+   20  mkdir .config
+   21  mv .config/ ~/
+   22  cd ~
+   23  ls -la
+   24  cd Github/
+   25  cd Dotfiles/
+   26  ls -la
+   27  sudo nano post-install.txt 
+   28  sudo nano post-install.txt 
+   29  sudo nano post-install.txt 
+   30  yay -S bspwm rofi polybar sxhkd kitty xterm visual-studio-code-bin thunar-git picom 
+   31  reboot
+   32  sudo reboot
+   33  cd Github/
+   34  ls
+   35  cd Dotfiles/
+   36  ;s
+   37  ls
+   38  cd config/
+   39  ls
+   40  cp -R bspwm/ .config/
+   41  cd ~
+   42  cd .config/
+   43  ls
+   44  cd ~/Github/Dotfiles/config/
+   45  cp -r bspwm/ ~/.config/
+   46  cd ~/.config/
+   47  ls
+   48  cd ~/Github/Dotfiles/config/
+   49  cp -r polybar/ ~/.config/
+   50  cp -r rofi/ ~/.config/
+   51  cp -r sxhkd/ ~/.config/
+   52  cp -r neofetch/ ~/.config/
+   53  yay -S neofetch
+   54  neofetch
+   55  reboot
+   56  sudo reboot
+   57  sudo reboot
+   58  thunar
+   59  kitty
+   60  code Github/Dotfiles/
+   61  rofi -show drun
+   62  /home/deuce/.config/polybar/launch.sh 
+   63  polybar
+   64  polybar
+   65  sxhkd
+   66  polybar
+   67  pkill -USR1 -x sxhkd
+   68  yay -Ss polybar
+   69  yay -Ss sxhkd
+   70  bspc {quit,wm -r}
+   71  rofi
+   72  rofi -show drun
+   73  rofi -show
+   74  rofi -show combi
+   75  kitty
+   76  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages mandoc neofetch nitrogen ntfs-3g ocs-url partitionmangerpicom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm -y
+   77  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pagesneofetch nitrogen ntfs-3g ocs-url partitionmangerpicom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm -y
+   78  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages nitrogen ntfs-3g ocs-url partitionmangerpicom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm -y
+   79  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages neofetch nitrogen ntfs-3g ocs-url partitionmanger picom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm
+   80  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages neofetch nitrogen ntfs-3g ocs-url partitionmanager picom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm
+   81  neofetch
+   82  reboot
+   83  kitty
+   84  rofi -show 
+   85  rofi
+   86  rofi -show drun
+   87  firefox-developer-edition 
+   88  rofi -show drun
+   89  xset led 3
+   90  polybar
+   91  cd ~/Github/
+   92  git clone https://github.com/ChrisTitusTech/Debian-titus
+   93  cd Debian
+   94  yay -S unzip picom bspwm polybar sddm rofi kitty sxhkd lxpolkit lxappearance xorg -y
+   95  yay -S unzip picom bspwm polybar sddm rofi kitty sxhkd lxpolkit xorg -y
+   96  logout
+   97  sudo logout
+   98  exit
+   99  exit
+  100  kitty
+  101  rofi -show 
+  102  rofi
+  103  rofi -show drun
+  104  killandnotify "sxhkd" "Config reloaded"  && sxhkd &
+  105  kill sxhkd
+  106  sxhkd
+  107  pkill -USR1 -x sxhkd
+  108  sudo nano /etc/fstab
+  109  sudo nano -a
+  110  sudo mount -a
+  111  cd /
+  112  sudo mkdir /media
+  113  ls 
+  114  cd media/
+  115  sudo mkdir Delta Gamma Oni Phi Theta Vega
+  116  ls
+  117  sudo chown -R deuce:deuce Delta Gamma Oni Phi Theta Vega
+  118  ls -la
+  119  sudo mount -a
+  120  yay -S pacman-aur krdc
+  121  yay -S pamac-aur
+  122  polybar
+  123  xset led 3
+  124  yay -S libvncserver
+  125  alias
+  126  reboot
+  127  /home/deuce/.config/polybar/launch.sh
+  128  xset led 3
+  129  nitrogen
+  130  yay -Ss github-desktop
+  131  yay -S github-desktop
+  132  yay -S gnome-keyring
+  133  yay -S github-desktop
+  134  history
+  135  history >>history.txt
+    1  yay -S sddm
+    2  cd /opt
+    3  git clone https://aur.archlinux.org/yay-git.git
+    4  sudo git clone https://aur.archlinux.org/yay-git.git
+    5  sudo chown -R deuce:deuce ./yay-git/
+    6  cd yay-git/
+    7  mkpkg -si
+    8  makepkg -si
+    9  yay -S sddm
+   10  sudo systemctl enable sddm
+   11  sudo systemctl set-default graphical.target
+   12  cd ~
+   13  ls
+   14  mkdir Github
+   15  mv -R ArchTitus/ Github/
+   16  mv -r ArchTitus/ Github/
+   17  ls
+   18  cd Github/
+   19  git clone https://github.com/deuceaj/Dotfiles
+   20  mkdir .config
+   21  mv .config/ ~/
+   22  cd ~
+   23  ls -la
+   24  cd Github/
+   25  cd Dotfiles/
+   26  ls -la
+   27  sudo nano post-install.txt 
+   28  sudo nano post-install.txt 
+   29  sudo nano post-install.txt 
+   30  yay -S bspwm rofi polybar sxhkd kitty xterm visual-studio-code-bin thunar-git picom 
+   31  reboot
+   32  sudo reboot
+   33  cd Github/
+   34  ls
+   35  cd Dotfiles/
+   36  ;s
+   37  ls
+   38  cd config/
+   39  ls
+   40  cp -R bspwm/ .config/
+   41  cd ~
+   42  cd .config/
+   43  ls
+   44  cd ~/Github/Dotfiles/config/
+   45  cp -r bspwm/ ~/.config/
+   46  cd ~/.config/
+   47  ls
+   48  cd ~/Github/Dotfiles/config/
+   49  cp -r polybar/ ~/.config/
+   50  cp -r rofi/ ~/.config/
+   51  cp -r sxhkd/ ~/.config/
+   52  cp -r neofetch/ ~/.config/
+   53  yay -S neofetch
+   54  neofetch
+   55  reboot
+   56  sudo reboot
+   57  sudo reboot
+   58  thunar
+   59  kitty
+   60  code Github/Dotfiles/
+   61  rofi -show drun
+   62  /home/deuce/.config/polybar/launch.sh 
+   63  polybar
+   64  polybar
+   65  sxhkd
+   66  polybar
+   67  pkill -USR1 -x sxhkd
+   68  yay -Ss polybar
+   69  yay -Ss sxhkd
+   70  bspc {quit,wm -r}
+   71  rofi
+   72  rofi -show drun
+   73  rofi -show
+   74  rofi -show combi
+   75  kitty
+   76  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages mandoc neofetch nitrogen ntfs-3g ocs-url partitionmangerpicom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm -y
+   77  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pagesneofetch nitrogen ntfs-3g ocs-url partitionmangerpicom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm -y
+   78  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages nitrogen ntfs-3g ocs-url partitionmangerpicom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm -y
+   79  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages neofetch nitrogen ntfs-3g ocs-url partitionmanger picom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm
+   80  yay -S awesome-terminal-fonts bspwm  cifs-utils corectrl exfat-utils firefox-developer-edition  kitty lxappearance-gtk3 man-db man-pages neofetch nitrogen ntfs-3g ocs-url partitionmanager picom polkit polkit-gnome polybar rofi rxvt-unicode sxhkd thunar-git thunar-archive-plugin thunar-volman thunar-media-tags-plugin xterm
+   81  neofetch
+   82  reboot
+   83  kitty
+   84  rofi -show 
+   85  rofi
+   86  rofi -show drun
+   87  firefox-developer-edition 
+   88  rofi -show drun
+   89  xset led 3
+   90  polybar
+   91  cd ~/Github/
+   92  git clone https://github.com/ChrisTitusTech/Debian-titus
+   93  cd Debian
+   94  yay -S unzip picom bspwm polybar sddm rofi kitty sxhkd lxpolkit lxappearance xorg -y
+   95  yay -S unzip picom bspwm polybar sddm rofi kitty sxhkd lxpolkit xorg -y
+   96  logout
+   97  sudo logout
+   98  exit
+   99  exit
+  100  kitty
+  101  rofi -show 
+  102  rofi
+  103  rofi -show drun
+  104  killandnotify "sxhkd" "Config reloaded"  && sxhkd &
+  105  kill sxhkd
+  106  sxhkd
+  107  pkill -USR1 -x sxhkd
+  108  sudo nano /etc/fstab
+  109  sudo nano -a
+  110  sudo mount -a
+  111  cd /
+  112  sudo mkdir /media
+  113  ls 
+  114  cd media/
+  115  sudo mkdir Delta Gamma Oni Phi Theta Vega
+  116  ls
+  117  sudo chown -R deuce:deuce Delta Gamma Oni Phi Theta Vega
+  118  ls -la
+  119  sudo mount -a
+  120  yay -S pacman-aur krdc
+  121  yay -S pamac-aur
+  122  polybar
+  123  xset led 3
+  124  yay -S libvncserver
+  125  alias
+  126  reboot
+  127  /home/deuce/.config/polybar/launch.sh
+  128  xset led 3
+  129  nitrogen
+  130  yay -Ss github-desktop
+  131  yay -S github-desktop
+  132  yay -S gnome-keyring
+  133  yay -S github-desktop
+  134  history
+  135  history >>history.txt
+  136  code history.txt `
+  137  code history.txt
+  138  code history.txt
+  139  pacman -Qe >> explicit0420.txt
+  140  pacman -Qm >> foreign0420.txt
+  141  pacman -Qn >> native0420.txt
+  142  pacman -Qent >> explcit-native0420.txt
+  143  code ~.
+  144  yay -S wine-gekco wine-mono winetricks
+  145  neofetch
+  146  neofetch
+  147  yay -S wine-gecko
+  148  systemctl suspend
+  149  systemctl suspend
+  150  systemctl suspend
+  151  systemctl suspend
+  152  systemctl suspend
+  153  picom -b&
+  154  picom -b&
+  155  killall picom
+  156  picom -b&
+  157  yay -Ss System Monitoring Center
+  158  yay -S system-monitoring-center
+  159  btop
+  160  htop
+  161  sensors
+  162  system-monitoring-center 
+  163  sudo touch /etc/polkit-1/rules.d/90-corectrl.rules
+  164  sudo cd /etc/polkit-1/rules.d/
+  165  cd /etc/polkit-1/rules.d/
+  166  sudo nano /etc/polkit-1/rules.d/
+  167  sudo nano /etc/polkit-1/rules.d/90-corectrl.rules
+  168  kill sxhkd
+  169  killall sxhkd
+  170  sxhkd
+  171  yay -S discord
+  172  /home/deuce/.local/share/applications/GW2.desktop
+  173  "/media/Gamma/drive_c/GW2/Guild Wars 2/Gw2-64.exe"
+  174  export PATH="$HOME/.local/bin:$PATH"
+  175  echo $PATH
+  176  killandnotify "sxhkd" "Config reloaded"  && sxhkd 
+  177  reboot
+  178  xset led 3
+  179  cd ~
+  180  yay -Ss input-remapper
+  181  yay -S input-remapper
+  182  yay -Ss openrazer
+  183  yay -S openrazer-meta polychromatic
+  184  neofetch
+  185  xset led 3
+  186  yay -S tiny-media-manager-3
+  187  killandnotify "sxhkd" "Config reloaded"  && sxhkd &
+  188  reboot
+  189  tiny-media-manager-3
+  190  tinymediamanager
+  191  history >> history.txt 
