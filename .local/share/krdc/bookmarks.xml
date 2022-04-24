@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" dbusName="krdc" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" dbusName="krdc" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <folder>
   <title>History</title>
   <info>
@@ -16,8 +16,8 @@
     </metadata>
     <metadata owner="http://www.kde.org">
      <time_added>1650296812</time_added>
-     <time_visited>1650548101</time_visited>
-     <visit_count>9</visit_count>
+     <time_visited>1650661483</time_visited>
+     <visit_count>10</visit_count>
     </metadata>
    </info>
   </bookmark>

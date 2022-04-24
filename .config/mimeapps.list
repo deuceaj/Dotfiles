@@ -128,7 +128,7 @@ application/octet-stream=visual-studio-code.desktop
 
 [Added Associations]
 image/jpeg=feh.desktop;
-application/x-shellscript=visual-studio-code.desktop;codium.desktop;org.gnome.gedit.desktop;
+application/x-shellscript=kitty-open.desktop;visual-studio-code.desktop;codium.desktop;org.gnome.gedit.desktop;
 x-scheme-handler/http=xfce4-web-browser.desktop;
 x-scheme-handler/https=xfce4-web-browser.desktop;
 text/x-csrc=codium.desktop;

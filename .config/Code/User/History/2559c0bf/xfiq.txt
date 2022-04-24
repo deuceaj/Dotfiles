@@ -1,0 +1,97 @@
+cd /opt
+sudo git clone https://aur.archlinux.org/yay-git.git
+sudo chown -R deuce:deuce ./yay-git
+cd yay-git
+makepkg -si
+
+
+
+##########REQUIRED FOR STARTUP#############
+yay -S sddm bspwm rofi neofetch polybar sxhkd kitty xterm visual-studio-code-bin thunar-git picom xorg
+
+
+##########POST STARTUP REQUIREMENTS#############
+yay -S awesome-terminal-fonts cifs-utils corectrl exfat-utils firefox-developer-edition  gnome-keyring lxappearance-gtk3 lxpolkit man-db man-pages  nitrogen ntfs-3g ocs-url partitionmanager  polkit polkit-gnome rxvt-unicode thunar-archive-plugin thunar-volman thunar-media-tags-plugin uzip
+
+Create folder
+cd /
+sudo mkdir /media
+cd media/
+sudo mkdir Delta Gamma Oni Phi Theta Vega
+sudo chown -R deuce:deuce Delta Gamma Oni Phi Theta Vega
+
+
+CAT into Fstab
+UUID=4706CFCB4DBA4B7C                       /media/Gamma   ntfs    nofail                                                                                                  0 0 
+UUID=1CB2FD8274F1A91C                       /media/Phi     ntfs    nofail                                                                                                  0 0 
+UUID=E614F7FE14F7D013                       /media/Oni     ntfs    nofail                                                                                                  0 0 
+UUID=de1b6d6a-9129-4ed2-a6f1-ee3243e2d682   /media/Vega    btrfs   nofail                                                                                                  0 0 
+//192.168.2.10/Theta                        /media/Theta/   cifs    vers=2.0,credentials=/home/deuce/.local/.smbcredentials,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777 0 0 
+
+
+##########CoreCtrl############
+cp /usr/share/applications/org.corectrl.corectrl.desktop ~/.config/autostart/org.corectrl.corectrl.desktop
+
+
+sudo nano /etc/polkit-1/rules.d/90-corectrl.rules
+
+CAT into 
+polkit.addRule(function(action, subject) {
+    if ((action.id == "org.corectrl.helper.init" ||
+         action.id == "org.corectrl.helperkiller.init") &&
+        subject.local == true &&
+        subject.active == true &&
+        subject.isInGroup("deuce")) {
+            return polkit.Result.YES;
+    }
+});
+
+
+##########Add Bin to Path################
+export PATH="$HOME/.local/bin:$PATH"
+
+INSTALL 
+
+
+Enable "systemd-numlockontty" for NumberLock on start
+sudo systemctl enable numLockOnTty.service
+
+
+
+
+
+pacman -Qe >> 0421_explixit.txt
+pacman -QM >> 0421_manual.txt
+pacman -QM >> 0421_native.txt
+pacman -Qent >> 0421_explicit-native.txt
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=YXWI218PXEA
+
+
+
+
+
+Move to theme Folder
+
+git clone https://github.com/Kangie/sddm-sugar-candy
+sudo pacman -S --needed sddm qt5‑graphicaleffects qt5‑quickcontrols2 qt5‑svg
+sudo tar -xzvf ~/sugar‑candy.tar.gz -C /usr/share/sddm/themes
+
+
+
+
+ ##################################################
+ super ctrl directions
+ Move tiles
+
+ Magnify/Tile Toggle
+ Super ctrl m
+
+Switch with Biggest window
+ Super ctrl g

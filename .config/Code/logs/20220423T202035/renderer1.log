@@ -1,0 +1,8 @@
+[2022-04-23 20:20:36.700] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-23 20:20:36.910] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-23 20:22:16.042] [renderer1] [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+[2022-04-23 20:22:16.772] [renderer1] [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
+[2022-04-23 20:22:16.776] [renderer1] [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 
+[2022-04-23 20:22:17.428] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-23 20:22:17.759] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-23 20:23:29.533] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.

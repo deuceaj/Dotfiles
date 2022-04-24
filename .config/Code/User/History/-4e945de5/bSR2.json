@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "/etc/sddm.conf.d"
+		},
+		{
+			"path": "/usr/lib/sddm/sddm.conf.d"
+		}
+	],
+	"settings": {}
+}

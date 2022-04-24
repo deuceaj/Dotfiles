@@ -1,0 +1,13 @@
+[2022-04-24 11:27:14.659] [exthost] [info] Extension host with pid 38872 started
+[2022-04-24 11:27:14.659] [exthost] [info] Skipping acquiring lock for /home/deuce/.config/Code/User/workspaceStorage/95453bbe2e0e90a1b335c5cf5f48c52e.
+[2022-04-24 11:27:14.699] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-04-24 11:27:14.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-24 11:27:14.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-24 11:27:14.717] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-24 11:27:14.720] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2022-04-24 11:27:14.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-24 11:27:14.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-24 11:27:14.781] [exthost] [info] Eager extensions activated
+[2022-04-24 11:27:14.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-24 11:27:14.813] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-24 11:27:14.815] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

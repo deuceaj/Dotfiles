@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/home/deuce/.config/bspwm"
+		},
+		{
+			"path": "/home/deuce/.config/bspwm.deuce"
+		},
+		{
+			"path": "../../../sxhkd"
+		}
+	]
+}
