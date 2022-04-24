@@ -1,0 +1,13 @@
+corectrl 1.2.3-1
+exo-devel 4.17.1-1
+gconf 3.2.6+11+g07808097-10
+github-desktop 2.9.14-1
+libpamac-aur 11.3.0-0
+libxfce4ui-devel 4.17.6-1
+libxfce4util-devel 4.17.2-1
+ocs-url 3.1.0-7
+pamac-aur 10.4.0-0
+polybar 3.6.2-1
+thunar-git 4.17.8+113+g01582c80-1
+visual-studio-code-bin 1.66.2-2
+yay-git 11.1.2.r10.g74cf1f7-1
