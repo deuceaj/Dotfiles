@@ -16,8 +16,7 @@ desktop=$(echo $DESKTOP_SESSION)
 count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
 
 
-
-   case $desktop in
+case $desktop in
 
     bspwm|/usr/share/xsessions/bspwm)
     if type "xrandr" > /dev/null; then
@@ -36,6 +35,7 @@ count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
     polybar --reload mainbar-bspwm-extra -c ~/.config/polybar/config &
     fi
     ;;
-    
-    esac
- 
+
+  
+
+esac

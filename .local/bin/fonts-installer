@@ -1,0 +1,9 @@
+#!/bin/bash
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/FiraCode.zip
+unzip FiraCode.zip -d /usr/share/fonts
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/FiraMono.zip
+unzip FiraMono.zip -d /usr/share/fonts
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/Meslo.zip
+unzip Meslo.zip -d /usr/share/fonts
+fc-cache -vf

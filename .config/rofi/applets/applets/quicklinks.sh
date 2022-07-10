@@ -17,7 +17,7 @@ msg() {
 
 # Browser
 if [[ -f /usr/bin/firefox ]]; then
-	app="firefox"
+	app="firefox-developer-edition"
 elif [[ -f /usr/bin/chromium ]]; then
 	app="chromium"
 elif [[ -f /usr/bin/midori ]]; then
@@ -28,32 +28,36 @@ else
 fi
 
 # Links
-google=""
-facebook=""
-twitter=""
-github=""
-mail=""
+google=" Advanced"
+deuce_github=" Deuce"
+CT_github=" Titus"
+github=" DT"
+Twitch_Hollow=" Lenitz"
+Plex="  Plex"
 youtube=""
 
 # Variable passed to rofi
-options="$google\n$facebook\n$twitter\n$github\n$mail\n$youtube"
+options="$google\n$deuce_github\n$CT_github\n$github\n$Twitch_Hollow\n$Plex\n$youtube"
 
-chosen="$(echo -e "$options" | $rofi_command -p "Open In  :  $app" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "Open In  :  Firefox" -dmenu -selected-row 0)"
 case $chosen in
     $google)
-        $app https://www.google.com &
+        $app https://www.google.com/advanced_search &
         ;;
-    $facebook)
-        $app https://www.facebook.com &
+    $deuce_github)
+        $app https://github.com/deuceaj/ &
         ;;
-    $twitter)
-        $app https://www.twitter.com &
+    $CT_github)
+        $app https://github.com/ChrisTitusTech/ &
         ;;
     $github)
-        $app https://www.github.com &
+        $app https://gitlab.com/dwt1 &
         ;;
-    $mail)
-        $app https://www.gmail.com &
+    $Twitch_Hollow)
+        $app https://twitch.tv/hollowsprinter &
+        ;;
+    $Plex)
+        $app http://192.168.2.101:32400/web/index.html#!/ &
         ;;
     $youtube)
         $app https://www.youtube.com &

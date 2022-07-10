@@ -1,0 +1,4 @@
+#!/bin/bash
+virsh start Windows11
+sleep 2
+virt-viewer Windows11

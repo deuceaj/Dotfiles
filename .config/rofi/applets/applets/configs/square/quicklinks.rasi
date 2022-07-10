@@ -23,11 +23,11 @@ configuration {
 
 window {
     transparency:                   "real";
-    border-radius:                  0px;
+    border-radius:                  0px;    
+	width:							800px;    
     location:                       southeast;
-	width:							500px;
-    x-offset:                       -15px;
-    y-offset:                       -45px;
+    x-offset:                       -1px;
+    y-offset:                       -1px;
 }
 
 prompt {
@@ -63,7 +63,7 @@ inputbar {
 }
 
 listview {
-    columns:						6;
+    columns:						8;
     lines:							1;
     spacing:                        12px;
     cycle:                          true;
@@ -88,7 +88,7 @@ element {
 element-text {
     background-color: 				inherit;
     text-color:       				inherit;
-	font:							"feather 20";
+	font:							"feather 10";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

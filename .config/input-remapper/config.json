@@ -1,5 +1,5 @@
 {
-    "version": "1.4.2",
+    "version": "1.5.0",
     "autoload": {
         "Logitech USB Headset Logitech USB Headset": "new preset",
         "Razer Razer Tartarus V2": "Guild Wars 2"

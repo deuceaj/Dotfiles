@@ -4,14 +4,16 @@ alias 1dstat='systemctl status --user onedrive'
 alias sdnow='sudo shutdown -H now'
 
 #Show Files/Folders
-alias l='ls -lFh'     #size,show type,human readable
-alias la='ls -lAFh'   #long list,show almost all,show type,human readable
-
+alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias ls='lsd -al --group-dirs first --icon-theme fancy'
+alias la='lsd -a --group-dirs first --icon-theme fancy'
+alias ll='lsd -l --group-dirs first --icon-theme fancy'
+alias l.='lsd -a | egrep "^\."'
 
 # confirm before overwriting something
-alias cp="cp "
-alias mv='mv '
-alias rm='rm '
+#alias cp="cp -i"
+#alias mv='mv -i'
+#alias rm='rm -i'
 
 
 # youtube-dl
@@ -29,28 +31,33 @@ alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 #CD to Drives
 alias Delta="cd /Media/Delta"
 alias Epsilon="cd /Media/Epsilon"
-alias Oni="cd /Media/Oni"
 alias Sigma="cd /Media/Sigma"
 alias Theta="cd /Media/Theta"
-alias Vega="cd /Media/Vega"
 alias ..="cd .."
 
+
+alias nordc="nordvpn connect us8493"
 alias large10="du -hsx * | sort -rh | head -10"
 
 
 #Python
-# alias PythosVE_setup"python3 -m venv pmm-venv"
-# alias PythosVE_activate"pmm-venv/bin/activate"
-# alias PMM_start"python plex_meta_manager.py -r"
+#alias PythosVE_setup"python3 -m venv pmm-venv"
+#alias PythosVE_activate"pmm-venv/bin/activate"
+#alias PMM_start"python plex_meta_manager.py -r"
 
-# Edit Configs
-alias dot_edit="code /home/deuce/GitHub/Dotfiles/"
-alias awesome_edit="code /home/deuce/.config/awesome/"
-alias polybar_edit="code /home/deuce/.config/polybar/"
-alias awesome_check="Xephyr :5 & sleep 1 ; DISPLAY=:5 awesome"
 
 #See Keyboard Stroke names
 alias keykey="xev -event keyboard"
 
-#Restart polybar
-alias restart_poly=".config/polybar/launch.sh"
+#Vim --> neovim 
+alias vim="nvim"
+
+
+#shopt
+shopt -s autocd # change to named directory
+shopt -s cdspell # autocorrects cd misspellings
+shopt -s cmdhist # save multi-line commands in history as single line
+shopt -s dotglob
+shopt -s histappend # do not overwrite history
+shopt -s expand_aliases # expand aliases
+shopt -s checkwinsize  # http://cnswww.cns.cwru.edu/~chet/bash/FAQ (E11)

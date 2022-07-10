@@ -23,24 +23,3 @@ IN
                 echo desktop=^10 follow=on;;
         esac;;
 esac;
-
-
-case "$class" in
-    (foo)
-        bar;;
-    ("")
-        unset -v _NET_WM_PID;
-        . /dev/fd/0 2>/dev/null <<IN
-        : \"\${$(
-            xprop \
-                -id "$id" \
-                -notype \
-                -f _NET_WM_PID 32c '=$0' \
-                _NET_WM_PID;
-        )}\";
-IN
-        case "$(ps -p "${_NET_WM_PID:?}" -o comm= 2>/dev/null)" in
-            (corectrl 
-                echo desktop=^7 follow=on;;
-        esac;;
-esac;

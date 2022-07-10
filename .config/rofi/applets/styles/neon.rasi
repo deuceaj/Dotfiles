@@ -1,0 +1,13 @@
+* {
+    background-color:            rgba ( 16, 17, 20, 30 % );
+    border-color:                rgba ( 139, 171, 240, 100 % );
+    foreground:                  rgba ( 255, 255, 255, 100 % );
+    urgent-foreground:           rgba ( 218, 121, 47, 100 % );
+    selected-foreground:         rgba ( 180, 194, 224, 100 % );
+    selected-urgent-foreground:  rgba ( 230, 230, 230, 100 % );
+    background:                  rgba ( 45, 48, 59, 0 % );
+    background-light:        rgba ( 45, 48, 59, 100 % );
+    selected-background:         rgba ( 64, 132, 214, 40 % );
+    selected-urgent-background:  rgba ( 218, 121, 47, 40 % );
+    accent:           rgba(0, 114, 198, 100 %);
+}

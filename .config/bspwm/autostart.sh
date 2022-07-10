@@ -21,49 +21,66 @@ $HOME/.config/polybar/launch.sh &
 
 keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
 
-              # if [ $keybLayout = "be" ]; then
-              #   run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc-azerty &
-              # else
-              #   run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
-              # fi
-
-
 if [ $keybLayout = "be" ]; then
-  run sxhkd -c ~/.config/bspwm/sx/kdrc-azerty &
+  run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc-azerty &
 else
   run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 fi
 
-#Some ways to set your wallpaper besides variety or nitrogen
-# feh --bg-scale ~/.config/bspwm/wall.png &
-# feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-#feh  --randomize --bg-fill ~/.wallpaper/* 
-#feh --randomize --bg-fill ~/Dropbox/Apps/Desktoppr/*
 
-dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+# Restore wallpaper
+nitrogen --restore &
+
+# Launch notification daemon
+dunst -config $HOME/.config/bspwm/dunstrc &
+
+# Enable power management
+xfce4-power-manager &
+
+# Enable LED Keyboard
+$HOME/.local/bin/led.sh
+
+# Enable Java Fix
+$HOME/.local/bin/javafix
+
+# Enable GPU Monitor
+corectrl &
+
+
 xsetroot -cursor_name left_ptr &
 
-# conky -c $HOME/.config/bspwm/system-overview &
-/home/deuce/.local/led.sh &
+conky -c $HOME/.config/bspwm/system-overview &
 # run variety &
 run nm-applet &
-# run pamac-tray &
-# run xfce4-power-manager &
+run pamac-tray &
+run xfce4-power-manager &
 numlockx on &
 blueberry-tray &
 picom --config $HOME/.config/bspwm/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
-run volumeicon &
-nitrogen --restore &
+# run volumeicon &
+#nitrogen --restore &
 #run caffeine &
 #run vivaldi-stable &
-run thunar &
+#run firefox &
+#run thunar &
 #run dropbox &
 #run insync start &
 #run discord &
-corectrl &
-#firefox-developer-edition &
-#code &
-#spotify &
+#run spotify &
+#run atom &
 
+
+
+
+bsp-layout set tall 1
+bsp-layout set tall 2
+bsp-layout set tall 3
+bsp-layout set tall 4
+bsp-layout set tall 5
+bsp-layout set tall 6
+bsp-layout set tall 7
+bsp-layout set tall 8
+bsp-layout set wide 9
+bsp-layout set wide 0
