@@ -51,8 +51,8 @@ format-overline =
 ################################################################################
 
 [bar/mainbar-bspwm]
-; monitor = ${env:MONITOR}
-monitor = HDMI-A-0
+monitor = ${env:MONITOR}
+; monitor = HDMI-A-0
 width = 100%
 height = 20
 ;offset-x = 1%
@@ -113,15 +113,15 @@ scroll-down = bspwm-deskprev
 ################################################################################
 
 [bar/mainbar-bspwm-extra]
-; monitor = ${env:MONITOR}
-monitor = DVI-D-0
+monitor = ${env:MONITOR}
+;monitor = DVI-D-0
 width = 100%
 height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
 fixed-center = true
-bottom = false
+bottom = true
 separator =""
 
 background = ${color.background}
